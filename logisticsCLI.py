@@ -51,7 +51,7 @@ def distance(city1, city2):
 @cli.command("travel")
 @click.argument("city1")
 @click.argument("city2")
-@click.option("--speed", default=60, help="Speed in km per hour")
+@click.option("--speed", default=120, help="Speed in km per hour")
 def travel(city1, city2, speed):
     """Estimate travel time between two cities by car
 

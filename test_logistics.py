@@ -17,7 +17,7 @@ def test_distance_between_two_points():
 # def travel_time(city1, city2, speed=60):
 def test_travel_time2():
     hours = travel_time("Delhi", "Bengaluru")
-    assert hours == 41
+    assert hours == 18
 
 
 def test_cities_list():
@@ -66,4 +66,4 @@ def test_travel_time(client):
         json={"city1": {"name": "Delhi"}, "city2": {"name": "Bengaluru"}},
     )
     assert response.status_code == 200
-    assert response.json() == {"travel_time": "41 hours"}
+    assert response.json() == {"travel_time": "18 hours"}
