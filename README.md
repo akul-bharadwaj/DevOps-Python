@@ -2,4 +2,4 @@
 
 # DevOps-Python
 
-This is a project on logistics between cities.
+This is a project on logistics between cities in India.
