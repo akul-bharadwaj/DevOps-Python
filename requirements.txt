@@ -8,4 +8,6 @@ black
 ipdb
 geopy
 httpx
+wikipedia
 anyio
+git+https://github.com/LIAAD/yake
